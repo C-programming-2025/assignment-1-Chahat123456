@@ -8,7 +8,7 @@ int main()
     scanf("%d", &x);
     printf("Enter value of y: ");
     scanf("%d", &y);
-    printf("\nBefore swap: x = %d, y = %d\n", x, y);
+    printf("b4 swap: x = %d, y = %d\n", x, y);
     x = x + y;
     y = x - y;
     x = x - y;
