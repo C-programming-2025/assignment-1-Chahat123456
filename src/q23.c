@@ -1,13 +1,12 @@
+
 #include <stdio.h>
 #include <math.h>
 int main()
 {
-    int num, sq, res, checker;
-    printf("enter any number: ");
+    int num, checker;
+    printf("enter a number: ");
     scanf("%d", &num);
-    sq = sqrt(num);
-    res = pow(sq, 2);
-    checker = res == num;
+    checker = (int)(sqrt(num)) % 2 == 0;
     printf("result: %d", checker);
     return 0;
 }
