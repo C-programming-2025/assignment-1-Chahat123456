@@ -6,7 +6,7 @@ int main()
     int num, checker;
     printf("enter a number: ");
     scanf("%d", &num);
-    checker = (int)(sqrt(num)) % 2 == 0;
+    checker = (num > 0) && !(num & (num - 1));
     printf("result: %d", checker);
     return 0;
 }
