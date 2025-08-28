@@ -6,6 +6,6 @@ int main()
     printf("enter three numbers: ");
     scanf("%d %d %d", &a, &b, &c);
     sum = (a * a) + (b * b) + (c * c);
-    printf("the sum of squared numbers are: %d", sum);
+    printf("the sum is: %d", sum);
     return 0;
 }
